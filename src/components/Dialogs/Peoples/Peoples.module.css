@@ -1,0 +1,11 @@
+.items{
+    padding: 20px;
+    border-right: 1px solid #ffffff;
+}
+.item_link{
+    text-decoration: none;
+    color: #ffffff;
+}
+.item:not(:last-child){
+    margin-bottom: 10px;
+}

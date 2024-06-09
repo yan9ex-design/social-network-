@@ -1,0 +1,21 @@
+.title{
+    margin: 0;
+}
+.write_post{
+    resize: none;
+    padding: 10px;
+    color: #ffffff;
+    background-color:#000000;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+.add_btn{
+    background-color: #033CFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    min-width: 100px;
+    min-height: 40px;
+    cursor: pointer;
+}
+  

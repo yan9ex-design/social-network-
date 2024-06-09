@@ -1,0 +1,21 @@
+.img_wrap{
+    max-width: 50px;
+}
+.img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.post_header{
+    max-width: 200px;
+}
+.post_title{
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+}
+.post_text p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}
