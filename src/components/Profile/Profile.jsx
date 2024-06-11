@@ -5,12 +5,11 @@ import Banner from './Banner/Banner';
 import Descr from './Descr/Descr';
 
 const Profile = (props) => {
-
   return (
     <div className={s.main_content}>
         <Banner />
         <Descr />
-        <MyPosts postData = {props.postData} />
+        <MyPosts postData = {props.postData} addPost = {props.addPost} />
     </div>
   );
 }
