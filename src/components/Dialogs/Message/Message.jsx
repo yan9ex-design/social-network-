@@ -13,11 +13,11 @@ const MessageItem = (props) => {
 
 const Message = (props) => {
 
-    let messageElements = props.messageData.map (message =>  <MessageItem name={message.message} />);
+    let messageElements = props.messageData.map(message => <MessageItem name={message.message} />);
     let inputFieldLink = React.createRef();
     let sendMessage = () => {
         let message = inputFieldLink.current.value;
-        props.addMessage(message);
+        props.dispatch({ type: 'ADD-MESSAGE', message: message });
     }
 
 

@@ -14,7 +14,7 @@ const DialogItem = (props) => {
 const Peoples = (props) => {
 
 
-    let dialogsElements = props.dialogsData.map (dialogs => <DialogItem name={dialogs.name} id={dialogs.id} />);
+    let dialogsElements = props.dialogsData.map(dialogs => <DialogItem name={dialogs.name} id={dialogs.id} />);
 
     return (
         <div className={s.items}>

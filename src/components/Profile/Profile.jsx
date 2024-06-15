@@ -9,7 +9,9 @@ const Profile = (props) => {
     <div className={s.main_content}>
         <Banner />
         <Descr />
-        <MyPosts postData = {props.postData} addPost = {props.addPost} />
+        <MyPosts postData = {props.postData.post}
+        newPostText = {props.postData.newPostText}
+        dispatch = {props.dispatch} />
     </div>
   );
 }
